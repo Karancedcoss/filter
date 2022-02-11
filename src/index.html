@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <label for="filters" class="choose">Choose Brands:</label>
+    <select name="filter1" id="filter1">
+        <option value="">All</option>
+        <option value="apple" class="brand">Apple</option>
+        <option value="samsung" class="brand">Samsung</option>
+        <option value="motorola" class="brand">Motorola</option> 
+        <option value="Asus" class="brand">Asus</option>
+        <option value="microsoft" class="brand">Microsoft</option>  
+
+    </select>
+
+    <table id="product">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>BRAND</th>
+                <th>OPERATING SYSTEM</th>
+                <th>REMOVE</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <p>Search Here</p>
+    <input id="myInput" type="text" placeholder="Search Here for ID & Name">
+    <script src="script.js"></script>
+</body>
+</html>

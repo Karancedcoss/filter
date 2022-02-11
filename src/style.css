@@ -1,0 +1,44 @@
+
+#filter1{
+    margin-bottom: 25px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+td, th{
+    border: 1px solid #a7a0a0;
+}
+th{
+    background-color: rgb(231, 231, 90);
+}
+body{
+    margin: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+p{
+    display: inline;
+}
+#product thead tr th{
+    border: 1px solid black;
+}
+tbody td{
+    border:1px solid black;
+
+}
+tr:nth-child(even)
+{
+    background-color: blanchedalmond;
+}
+select{
+    background-color: rgb(254, 255, 224);
+    padding: 5px;
+    padding-left: 25px;
+}
+
+
+
